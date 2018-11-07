@@ -29,9 +29,9 @@ hp_graph = hp_data %>%
   geom_col(aes(fill = Name), position = "dodge")+ #default is stacked column graph, need to give it fill = Name to get it different. position = "dodge" makes it a cluster
   theme_classic()+
   scale_fill_grey()+
-  coord_flip()
+  coord_flip() #flips the axes
 
 
 hp_graph
 ```
-
+Hermoine is my idol 
